@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.hero-page {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cta {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.text {
+  /* width: 100%; */
+  font-size: 30rem;
+  position: absolute;
+  top: -5%;
+  left: 18px;
+  /* padding-left: 18px; */
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.icons {
+  font-size: 3rem;
+}
+
+.mid-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  position: absolute;
+  top: 65%;
+  left: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.mid-first-text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.last-first-text {
+  position: absolute;
+  top: 80%;
+  left: 25px;
+}
+
+.top-text {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.bottom-text {
+  font-size: 2rem;
+}
+
+.last-mid-text {
+  position: absolute;
+  top: 81.5%;
+  left: 28%;
+}
+
+.star {
+  font-size: 3rem;
+  position: relative;
+}
+
+.last-mid-bottom-text {
+  font-size: 5rem;
+  /* padding: 0 25px; */
+  position: absolute;
+  top: 20%;
+  left: 90%;
+}
+
+.last-last-text {
+  color: #000;
+  font-size: 5rem;
+  position: absolute;
+  top: 83.5%;
+  left: 78%;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.third-image {
+  width: 100%;
+  height: 81%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container:nth-child(1) {
+  flex: 1;
+  background-color: #000000e1;
+}
+
+.container:nth-child(2) {
+  flex: 1.5;
+}
+
+.container:nth-child(3) {
+  flex: 1;
+  overflow: hidden;
+}
